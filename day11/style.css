@@ -1,0 +1,48 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.question{
+    width: 75vw;
+    background: gainsboro;
+    height: 20vh;
+    text-align: center;
+    margin: 15px;
+    margin-left: 10vw;
+    vertical-align: center;
+    padding-top: 8vh;
+}
+
+.option{
+    width: 40vw;
+    height: 15vh;
+    margin: 15px;
+    margin-left: 10vw;
+    text-align: center;
+    padding-top: 6vh;
+}
+
+.default{
+    background: gainsboro;
+}
+.correct{
+    background-color: green;
+    color: white;
+}
+
+.incorrect{
+    background-color: red;
+    color: white;
+}
+
+.control{
+    margin-left: 10vw;
+}
+
+.control button{
+    height: 10vh;
+    width: 15vw;
+    margin: 5vh;
+    padding: 2%;
+}
