@@ -1,0 +1,33 @@
+.add-task{
+    
+    padding: 10px;
+    width: 50vw;
+    margin-left: 10%;
+    margin-top: 20px;
+}
+
+.success, .error{
+    color: white;
+    padding: 5px;
+    margin: 15px;
+}
+
+.success{
+    background-color: green;
+}
+
+.error{
+    background-color: red;
+}
+
+ul{
+    max-height: max-content;
+    width: 50%;
+    margin-left: 10%;
+    margin-top: 25px;
+    /* border: 2px solid grey; */
+}
+
+.completed{
+    text-decoration: line-through;
+}
