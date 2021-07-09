@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>THA-14</title>
+  </head>
+  <body
+    onloadstart="loadStart()"
+    onload="pageLoaded()"
+    onsuspend="pageSuspended()"
+    onresize="pageResize()"
+  >
+    <h1>Event Handling</h1>
+
+    <form>
+      <input
+        type="text"
+        name="name"
+        onkeyup="keyUP()"
+        onkeydown="keyDOWN()"
+        placeholder="enter your name"
+        id=""
+      />
+      <select name="city" id="" onchange="ddlChange()">
+        <option>City1</option>
+        <option>2City</option>
+        <option>City3</option>
+      </select>
+      <button
+        type="submit"
+        name="submit"
+        onclick="btnClick(event)"
+        onmouseover="btnOver()"
+        onmouseout="btnOut()"
+      >
+        Submit
+      </button>
+    </form>
+    <script src="script.js"></script>
+  </body>
+</html>
